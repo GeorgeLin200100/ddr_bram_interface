@@ -1,10 +1,10 @@
-### DDR-BRAM Interface Design
+# DDR-BRAM Interface Design
 
-#### Overview
+## Overview
 
 Achieving the most basic communication between DDR and BRAM with systemverilog.
 
-#### State Description
+## State Description
 
 | State Index | Description                                                  |
 | ----------- | ------------------------------------------------------------ |
@@ -15,7 +15,7 @@ Achieving the most basic communication between DDR and BRAM with systemverilog.
 | ⑤           | Read just written data from BRAM1 & Write them to DDR4       |
 | ⑥           | Read just written data from DDR4 & Validate                  |
 
-#### Module Description
+## Module Description
 
 | Module                    | Description                                                  |
 | ------------------------- | ------------------------------------------------------------ |
@@ -31,6 +31,6 @@ Achieving the most basic communication between DDR and BRAM with systemverilog.
 | fm_add_p2s_x.sv           | parallel to sequential conversion module, used in state 5    |
 | fm_add_s2p_x.sv           | sequential to parallel conversion module, used in state 2    |
 
-#### Details
+## Details
 
 Please refer to blog: [Vivado DDR4和BRAM交互调试经验分享 - George2024 - 博客园 (cnblogs.com)](https://www.cnblogs.com/georgelin/p/18013655)
