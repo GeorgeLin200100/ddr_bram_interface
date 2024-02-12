@@ -2,7 +2,7 @@
 
 ## Overview
 
-Achieving the most basic communication between DDR and BRAM with systemverilog.
+Achieving the most basic communication between DDR and BRAM with systemverilog. (Warning: only test with behavioral simulation)
 
 ## State Description
 
